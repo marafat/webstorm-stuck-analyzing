@@ -1,0 +1,20 @@
+{
+  "name": "papr-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc src/index.ts && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.7.0",
+    "papr": "^14.0.0",
+    "typescript": "^5.1.6"
+  },
+  "volta": {
+    "node": "18.16.1"
+  }
+}
